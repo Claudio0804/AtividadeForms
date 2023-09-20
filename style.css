@@ -40,7 +40,7 @@ label{
     justify-content: center;
 }
 #classificacao{
-    display: block;
+    display: none;
     height: 70px;
     border: 2px black solid;
     width: 300px;
