@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.formularioTabela{
+    margin-top: 10px;
+    background-color: aquamarine;
+    height: 300px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    border: black 2px solid;
+}
+header{
+    height: 100px;
+    width: 20%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: black 2px solid;
+    border-radius: 20px;
+}
+h1{
+    margin-top: 30px;
+}
+label{
+
+    margin-top: 10px;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#classificacao{
+    display: block;
+    height: 70px;
+    border: 2px black solid;
+    width: 300px;
+    margin-top: 30px;
+
+}

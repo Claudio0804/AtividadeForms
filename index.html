@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Formulário IMC</h1>
+    </header>
+    <div class="formularioTabela">
+        <form action="">
+            <div>
+                <label for="txtValorA">
+                    Peso____
+                </label>
+                <input type="number" name="" id="txtValorA">
+            </div>
+            <div>
+                <label for="txtValorB">
+                    Altura___
+                </label>
+                <input type="number" name="" id="txtValorB">
+            </div>
+            <div>
+                <label for="txtSoma">
+                    Resultado
+                </label>
+                <input type="number" name="" id="txtSoma" disabled>
+            </div>
+            <div class="botoes">
+                <input type="button" value="Somar" onclick="calcular_soma()">
+                <input type="button" value="Limpar" onclick="limpar_tudo()">
+            </div>
+
+        </form>
+        <div id="classificacao" onclick="calcular_soma">
+        </div>
+    </div>
+</body>
+
+</html>
